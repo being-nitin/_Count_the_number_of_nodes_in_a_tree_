@@ -22,6 +22,7 @@ public class Main {
         if(root==null){
             return 0;
         }
+        // initialise the value of count with 1 bca to include the root node too.
         int count = 1;
         for(int i=0;i<root.children.size();i++){
             count += nodeCount(root.children.get(i));
