@@ -18,6 +18,7 @@ public class Main {
         node3.children.add(node6);
         System.out.println(nodeCount(root));
     }
+    // will count the nodes as to by the number of recursive calls.
     public static int nodeCount(Treenode<Integer> root){
         if(root==null){
             return 0;
